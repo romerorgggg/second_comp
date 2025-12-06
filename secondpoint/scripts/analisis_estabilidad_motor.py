@@ -9,7 +9,7 @@ SALIDA_IMAGEN = 'results/estabilidad_motor.png'
 
 def analizar_estabilidad():
     if not os.path.exists(ARCHIVO_DATOS):
-        # Generar datos dummy si no existe (debes reemplazar esto con tu simulación real)
+        # Generar datos dummy si no existe 
         print(f"ADVERTENCIA: No se encontró {ARCHIVO_DATOS}. Generando datos dummy para el placeholder.")
         t = np.linspace(0, 500, 500)
         # La Energía Cinética debe fluctuar alrededor del valor esperado (kBT/2)
