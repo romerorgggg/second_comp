@@ -1,0 +1,9 @@
+<map id="MotorModel" name="MotorModel">
+<area shape="rect" id="Node000001" title=" " alt="" coords="147,373,325,599"/>
+<area shape="rect" id="Node000002" href="$classParticle.html" title=" " alt="" coords="5,5,163,311"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,310,168,348,172,357,167,360,163,350,145,312"/>
+<area shape="rect" id="Node000003" href="$classPotential.html" title=" " alt="" coords="187,105,285,211"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="239,211,239,357,233,357,233,211"/>
+<area shape="rect" id="Node000004" href="$classChemicalState.html" title=" " alt="" coords="309,65,443,251"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="354,252,318,350,314,360,309,357,314,348,349,250"/>
+</map>

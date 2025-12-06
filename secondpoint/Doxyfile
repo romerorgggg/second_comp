@@ -1,0 +1,42 @@
+# Doxyfile for Molecular Motor Project
+
+# --- Project identification ---
+PROJECT_NAME           = "Motor Molecular (Trinquete)"
+PROJECT_BRIEF          = "Simulación de Motor Molecular fuera del equilibrio"
+PROJECT_LOGO           =
+
+# --- Directory configuration ---
+INPUT                  = include src
+FILE_PATTERNS          = *.h *.cpp
+RECURSIVE              = YES
+EXCLUDE_PATTERNS       =
+OUTPUTDIRECTORY        = doc
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+
+# --- Output settings ---
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+HTML_OUTPUT            = html
+# HTML_FILE_EXTENSION    = .html
+# HTML_HEADER            = 
+# HTML_FOOTER            = 
+
+# --- Source code browsing ---
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+STRIP_CODE_LT          = YES
+
+# --- Documentation generation ---
+QUIET                  = NO
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DEPRECATED     = YES
+
+# --- Dot configuration (Graphs) ---
+HAVE_DOT               = YES
+CLASS_DIAGRAMS         = YES
+UML_LOOK               = YES
+# CALL_GRAPH             = YES
+# CALLER_GRAPH           = YES
